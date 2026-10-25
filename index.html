@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Mini Dungeon Slayer</title>
+<meta name="author" content="Tran Duc Long - tranduclong.id.vn">
+<!-- Mini Dungeon Slayer · Tran Duc Long - tranduclong.id.vn -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="game">
+  <canvas id="worldCanvas" width="480" height="270"></canvas>
+  <canvas id="uiCanvas"></canvas>
+  <div id="ui-root"></div>
+  <div id="rotate-hint">Xoay ngang điện thoại để chơi</div>
+</div>
+<!-- Thứ tự nạp script quan trọng: không dùng module để chạy được cả file:// -->
+<script src="js/00-config.js"></script>
+<script src="js/01-util.js"></script>
+<script src="js/02-assets.js"></script>
+<script src="js/02b-atlas.js"></script>
+<script src="js/02c-pixel-sprites.js"></script>
+<script src="js/03-input.js"></script>
+<script src="js/04-audio.js"></script>
+<script src="js/05-events.js"></script>
+<script src="js/11-data-items.js"></script>
+<script src="js/12-data-skills.js"></script>
+<script src="js/13-data-enemies.js"></script>
+<script src="js/14-data-rooms.js"></script>
+<script src="js/15-data-dungeons.js"></script>
+<script src="js/20-save.js"></script>
+<script src="js/21-stats.js"></script>
+<script src="js/22-loot.js"></script>
+<script src="js/23-world.js"></script>
+<script src="js/24-entities.js"></script>
+<script src="js/25-combat.js"></script>
+<script src="js/26-skills.js"></script>
+<script src="js/27-ai.js"></script>
+<script src="js/28-bosses.js"></script>
+<script src="js/29-effects.js"></script>
+<script src="js/30-fx.js"></script>
+<script src="js/31-light.js"></script>
+<script src="js/32-render.js"></script>
+<script src="js/40-ui-hud.js"></script>
+<script src="js/41-ui-dom.js"></script>
+<script src="js/42-ui-inventory.js"></script>
+<script src="js/43-ui-town.js"></script>
+<script src="js/51-run.js"></script>
+<script src="js/53-scene-town.js"></script>
+<script src="js/54-scene-dungeon.js"></script>
+<script src="js/55-scene-title.js"></script>
+<script src="js/99-main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+PROMPT-CHO-AI.md
+.claude/
+node_modules/
+*.log
