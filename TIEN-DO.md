@@ -88,7 +88,9 @@ Nạp đúng thứ tự trong `index.html` (script thường, **không module, k
 - Không thêm tên hay chữ ký của ai khác ngoài chủ dự án vào code, file và commit message.
 - Save phải tương thích ngược: thêm trường mới thì cho giá trị mặc định trong `Save.fresh`, vì `Save.migrate` tự điền trường thiếu.
 
-## 5. Việc tiếp theo: M5 (chi tiết)
+## 5. Việc tiếp theo: M5
+
+> **Làm theo thẻ việc trong [VIEC-CAN-LAM.md](VIEC-CAN-LAM.md)** (T5.1 → T5.11, mỗi lần 1 thẻ). Danh sách dưới đây chỉ là tóm tắt.
 
 Theo GDD mục 11, 12, 16:
 1. **Hệ thống hội thoại** (`44-ui-dialog.js`):
